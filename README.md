@@ -8,10 +8,10 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:João Pedro Spósito Pereira Cézar
+- Matricula: 912289
+- Proposta de projeto escolhida:website de recomendação de jogos
+- Breve descrição sobre seu projeto:um website capaz de recomendar jogos de acordo com preferências determinadas, como gênero, estilo, plataforma, etc.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
