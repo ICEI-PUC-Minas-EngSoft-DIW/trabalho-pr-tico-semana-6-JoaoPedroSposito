@@ -2,11 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home-page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+            <h1>Buscapé dos Games</h1>
+            <form action="">
+            <input type="search" placeholder="Buscar jogos...">
+            </form>
+            <nav>
+                <ul>           
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#Contatos">Contatos</a></li>
+                    <li> <a href="#">Ajuda</a></li>
+                </ul>
+            </nav>
+            <button>config</button>
+    </header>
+    <main>
+        <section class="destaques">
+            <h2>RECOMENDADOS</h2>
+            <div class="cards">
+                <article class="card"> 
+                    <img src="images/Destaques/the-last-of-us-part-II.jpg" alt="The Last of Us Part II"> 
+                    <div class="info-jogos">
+                        <h3>The last of Us Part II</h3>
+                        <p>Ação/Sobrevivência</p>
+                        <span>R$199,99</span>
+                    </div>
+                </article>
+                <article class="card"> 
+                    <img src="images/Destaques/elden-ring-capa.avif" alt="Elden Ring"> 
+                    <div class="info-jogos">
+                        <h3>Elden Ring</h3>
+                        <p>RPG/Aventura/Fantasia</p>
+                        <span>R$299,99</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images/Destaques/resident-evil-requiem-capa.avif" alt="Resident Evil Requiem">
+                    <div class="info-jogos">
+                        <h3>Resident Evil Requiem</h3>
+                        <p>Terror/Sobrenatural</p>
+                        <span>R$349,99</span>
+                    </div>                    
+                </article>
+            </div>
+            </section>
+        <section class="terror">
+            <h2>Terror</h2>
+            <div class="cards">
+                <article class="card"><img  src="images/terror-img/Resident Evil 4 Remake.jpg" alt="resident evil 4"></article>
+                <article class="card"><img  src="images/terror-img/resident-evil-7-biohazard.jpg" alt=""></article>
+                <article class="card"><img  src="images/terror-img/the-evil-within-2.jpg" alt=""></article>
+                <article class="card"><img  src="images/terror-img/outlast-2.avif" alt=""></article>
+                <article class="card" ><img  src="images/terror-img/silent-hill-2.avif" alt=""></article>
+            </div>
+            </section>
+        <section class="fps">
+            <h2>FPS</h2>
+            <div class="cards">
+                <article class="card"><img src="images/fps-img/valorant.jpg" alt="valorant"></article>
+                <article class="card"><img src="images/fps-img/CS.jpg" alt="CS"></article>
+                <article class="card"><img src="images/fps-img/COD-warzone.jpg" alt="COD-warzone"></article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+        <a id="Contatos" href="https://www.instagram.com/rodapedosgames/">@rodapedosgames</a>
+
+        <p>&copy; Meusite. Todos os direitos reservados.</p>
+        
+    </footer>
 </body>
 </html>
